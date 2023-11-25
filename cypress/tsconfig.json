@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ES2017",
+      "module": "es6",
+      "strictNullChecks": true,
+      "strict": true,
+      "esModuleInterop": true,
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "jsx": "react-jsx",
+      "types": ["cypress", "node"]
+    },
+    "include": ["**/*.ts", "**/*.tsx"]
+}
