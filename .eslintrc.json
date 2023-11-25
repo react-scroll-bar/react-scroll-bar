@@ -1,7 +1,8 @@
 {
     "env": {
         "browser": true,
-        "es2021": true
+        "es2021": true,
+        "node": true
     },
     "extends": [
         "eslint:recommended",
@@ -28,5 +29,6 @@
         "react": {
             "version": "detect"
         }
-    }
+    },
+    "ignorePatterns": ["cypress/support/*", "dist/*", "webpack.common.js", "webpack.dev.js", "webpack.prod.js"]
 }
