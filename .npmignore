@@ -1,0 +1,13 @@
+.DS_Store
+.github/
+cypress/
+docs/
+jest/
+node_modules/
+src/
+.prettierignore
+.prettierrc.json
+cypress.config.ts
+webpack.common.js
+webpack.dev.js
+webpack.prod.js
