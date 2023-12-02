@@ -1,5 +1,3 @@
 export const ScrollBar = () => {
-	return <div>
-		ScrollBar
-	</div>;
+    return <div>ScrollBar</div>;
 };
